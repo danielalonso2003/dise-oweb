@@ -1,0 +1,198 @@
+body{
+    background-color: #ececec;
+    position: relative;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header{
+    background-color: #ececec;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+
+#logo{
+    background-image: url('../img/logo.png');
+    background-size: cover;
+    height: 150px;
+    width: 300px;
+    margin-top: 20px;
+}
+
+#search_nav{
+    background-color: #ececec;
+    border-bottom-color: rgb(110, 103, 103);
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    height: 150px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#search{
+
+    color: rgb(110, 103, 103);
+    height: 50px;
+    width: 300px;
+    padding-top: 50px;
+    padding-left: 60px;
+}
+
+nav{
+    background-color: #ececec;
+    height: 50px;
+    width: 500px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+
+
+nav ul li a:link{
+    text-decoration: none;
+    background-color: #ececec;
+    color: rgb(110, 103, 103);
+    padding: 10px 10px 10px 10px;
+}
+
+nav ul li a:visited{
+    text-decoration: none;
+    background-color: white;
+    padding: 10px 10px 10px 10px;
+}
+
+nav ul li a:hover{
+    text-decoration: none;
+    background-color: rgb(110, 103, 103);
+    color: white;
+    padding: 10px 10px 10px 10px;
+}
+
+nav ul li a:active{
+    text-decoration: none;
+    background-color: #ececec;
+    color: rgb(110, 103, 103);
+    padding: 10px 10px 10px 10px;
+}
+
+main{
+    background-color: #ececec;
+    width: 100%;
+    height: 1500px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#cover{
+    background-image: url('../img/portada.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 950px;
+}
+#banner{
+    background-image: url('../img/banner.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+    width: 950px;
+}
+section{
+    background-color: #ececec;
+    width: 950px;
+    display: flex;
+    justify-content: space-between;
+}
+#video{
+    height: 450px;
+    width: 450px;
+}
+#ofertas{
+    background-color: thistle;
+    background-image: url('../img/oferta.jpg');
+    background-repeat: no-repeat;
+    background-size: 450px;
+    height: 450px;
+    width: 450px;
+}
+footer{
+    padding-top: 150px;
+    background-color: #ececec;
+    border-top-color: rgb(110, 103, 103);
+    border-top-width: 2px;
+    border-top-style: solid;
+    background-size: 100% 450px;
+    color: rgb(110, 103, 103);
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+address{
+    margin-top: -100px;
+}
+#horarios{
+    margin-top: -100px;
+    padding-left: 100px;
+    border-left-color: rgb(110, 103, 103);
+    border-left-width: 2px;
+    border-left-style: solid;
+}
+footer ul{
+    margin-top: -100px;
+    padding-left: 100px;
+    border-left-color: rgb(110, 103, 103);
+    border-left-width: 2px;
+    border-left-style: solid;
+}
+footer ul li{
+    list-style: none;
+    margin-top: 10px;
+}
+footer ul li a:link{
+    text-decoration: none;
+    color: rgb(110, 103, 103);
+}
+footer ul li a:visited{
+    text-decoration: none;
+    color: rgb(110, 103, 103);
+}
+footer ul li a:hover{
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+}
+
+.about_main_container{
+    padding: 0;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo{
+    font-size: 300%;
+    font-style: italic;
+    color: rgb(110, 103, 103);       
+}
+
+.parrafo{
+    width: 850px;
+    font-size: 170%;
+    font-style: italic;
+    color: rgb(110, 103, 103);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
